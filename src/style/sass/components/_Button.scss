@@ -1,0 +1,49 @@
+.btn {
+  border-radius: .375rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  &-nav {
+    height: 3rem;
+    width: 11.375rem;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    letter-spacing: -.0088rem;
+    color: #172339;
+    background: none;
+    border: 1px solid #172339;
+    // tablet
+    @media (min-width: 768px) {
+      height: 3.5rem;
+      width: 13.6875rem;
+    }
+    // desktop
+    @media (min-width: 1200px) {
+      height: 3.5rem;
+      width: 13.6875rem;
+    }
+
+    &:hover {
+      color: #FAF8F6;
+      background: #172339;
+      transition: .2s;
+    }
+  }
+
+  &-hero {
+    height: 3.8125rem;
+    width: 16rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: -.18px;
+    color: #FAF8F6;
+    background: #172339;
+    border: none;
+
+    &:hover {
+      background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+      transition: .2s;
+    }
+  }
+
+}

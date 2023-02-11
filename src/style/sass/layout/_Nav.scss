@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 0 1rem;
+  // tablet
+  @media (min-width: 768px) {
+    padding: 2.5rem 2.5rem 0 2.5rem;
+  }
+  // desktop
+  @media (min-width: 1200px) {
+    padding: 3.125rem 10.3125rem 0 10.3125rem;
+  }
+
+  &-img {
+    height: 1.5625rem;
+    width: 5.0625rem;
+  }
+}

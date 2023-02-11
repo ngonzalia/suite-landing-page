@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+* {
+  font-family: 'Epilogue', sans-serif;
+}
+
+
+// colors
+.dark-blue {
+  color: #172339;
+}
+.grey {
+  color: #49566D;
+}
+.cream-white {
+  color: #FAF8F6;
+}
+.cream {
+  color: #F3EDE7;
+}
+
+
+// weigths
+.w400 {
+  font-weight: 400;
+}
+.w700 {
+  font-weight: 700;
+}
+
+
+// alignment
+.center {
+  text-align: center;
+}
+.desktop-start {
+  @media (min-width: 1200px) {
+    text-align: start;
+  }
+}
+
+
+// text styles
+.title {
+  font-size: 2.375rem;
+  line-height: 2.75rem;
+  letter-spacing: -.033rem;
+  // tablet
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    letter-spacing: -.0486rem;
+  }
+  // desktop
+  @media (min-width: 1200px) {
+    font-size: 4.5rem;
+    line-height: 4.875rem;
+    letter-spacing: -.0625rem;
+  }
+}
+.hero-text {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: .0056rem;
+  // desktop
+  @media (min-width: 1200px) {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: 0.0063rem;
+  }
+}
+
+
+.stats {
+  &-position {
+    width: 100%;
+    text-align: center;
+    // dektop xl
+    @media (min-width: 1440px) {
+      text-align: start;
+    }
+  }
+
+  &-number {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  &-text {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: .1563rem;
+  }
+}
+
+
+.card {
+  &-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -.026rem;
+    // desktop
+    @media (min-width: 1200px) {
+      font-size: 3rem;
+      line-height: 3.5rem;
+      letter-spacing: -.0313rem;
+    }
+  }
+
+  &-text {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: .0056rem;
+    // desktop
+    @media (min-width: 1200px) {
+      font-size: 1.25rem;
+      line-height: 2.1875rem;
+      letter-spacing: .0063rem;
+    }
+  }
+
+  &-name {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: -.0112rem;
+  }
+
+  &-job {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: .1563rem;
+  }
+}
+
+
+.footer-text {
+  font-size: .9375rem;
+  line-height: 2rem;
+  letter-spacing: .0052rem;
+}
